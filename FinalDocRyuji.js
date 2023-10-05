@@ -1,4 +1,3 @@
-# RyujiPointZero.fnd20
 console.log("繋がったぜ!");
 function gators(){
     let element = document.getElementById('text');
