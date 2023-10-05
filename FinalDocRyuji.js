@@ -5,7 +5,7 @@ function gators(){
     // console.log(element.value);
     for (let i = 0 ; i < element.value ; i++){
         // console.log("i:",i)
-    document.getElementsByClassName("bluebox")[0].textContent += 1+i;
+    document.getElementsByClassName("bluebox")[0].textContent += "🐊";
     document.getElementsByClassName("bluebox")[0].style.backgroundColor = "red";
 }
 }
