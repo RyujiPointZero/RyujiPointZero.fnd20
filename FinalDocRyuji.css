@@ -5,15 +5,15 @@
     margin: 0 auto;
 }
 .bluebox {
-    width: 300px;
-   
+    width: 300px;   
     
     background-color: blue;
     margin: 0 auto;
 }
 .Name1 {
-    width: 100px;
-    background-color: aqua;
+    width: 90px;
+    background-color: rgb(255, 0, 157);
+    background-position: left;
     color: black;
     margin: 0 auto;
 }
