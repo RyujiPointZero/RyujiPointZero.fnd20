@@ -1,0 +1,18 @@
+.greenbox {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 0 auto;
+}
+.bluebox {
+    width: 300px;    
+    
+    background-color: blue;
+    margin: 0 auto;
+}
+.Name1 {
+    width: 50px;
+    background-color: aqua;
+    color: black;
+    margin: 0 auto;
+}
