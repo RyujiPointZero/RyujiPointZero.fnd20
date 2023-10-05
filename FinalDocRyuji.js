@@ -2,7 +2,7 @@ console.log("繋がったぜ!");
 function gators(){
     let element = document.getElementById('text');
         for (let i = 0 ; i < element.value ; i++){
-    document.getElementsByClassName("bluebox")[0].textContent += 1 + i;
+    document.getElementsByClassName("bluebox")[0].textContent += "🐊";
     document.getElementsByClassName("bluebox")[0].style.backgroundColor = "red";
     }
 }
