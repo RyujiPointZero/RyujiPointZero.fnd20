@@ -8,3 +8,10 @@ function gators(){
 
 const target = document.getElementsByClassName("button")[0];
 target.addEventListener("click", gators);
+
+function member(){
+    window.alert("稲井です");
+}
+
+const temp = document.getElementsByClassName("n1")[0];
+temp.addEventListener("click", member);
