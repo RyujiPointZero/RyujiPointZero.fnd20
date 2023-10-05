@@ -1,4 +1,3 @@
-console.log("繋がったぜ!");
 function gators(){
     let element = document.getElementById('text');
         for (let i = 0 ; i < element.value ; i++){
