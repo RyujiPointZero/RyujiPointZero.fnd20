@@ -1,19 +1,152 @@
-.greenbox {
-    width: 200px;
-    height: 200px;
-    background-color: green;
-    margin: 0 auto;
-}
-.bluebox {
-    width: 300px;   
-    
-    background-color: blue;
-    margin: 0 auto;
-}
 .Name1 {
-    width: 90px;
-    background-color: rgb(255, 0, 157);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    background-color: rgb(0, 115, 255);
+    border: solid 3px;
+    color: white;
+    /*ボタンにカーソルを当てると、カーソルがポインターに変わる*/
+    cursor:pointer;
+    
+    width: 80px;
+    height: 30px;
+      
+    margin-right: 20px;
+    margin-left: auto;
+    
     background-position: left;
-    color: black;
-    margin: 0 auto;
 }
+/*ボタンにカーソルを当てた時、ボタンを半透明にする*/
+.Name1:hover{
+    opacity:0.7;
+    color:red;
+ }
+
+/*↓ボタンをクリック後、maskとメッセージウィンドウを開く*/
+ .btn-conteiner{
+    text-align: center;
+ }
+
+ #btn3{
+    width:80%;
+    height: 50px;
+    font-size:18px;
+    font-weight: bold;
+    /*ボタンにカーソルを当てると、カーソルがポインターに変わる*/
+    cursor:pointer;
+    
+ }
+ /*ボタンにカーソルを当てた時、ボタンを半透明にする*/
+ #btn3:hover{
+    opacity:0.7;
+    color: red;
+ }
+
+/* ↓：普段は見えない様にしている。 */
+
+ .hidden{
+    display: none;
+ }
+
+ #mask{
+    background: rgba(0, 0 , 0, 0.7);
+    position: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index:1;
+ }
+
+ /* ↓勤怠登録ボタン */
+ #modal{
+    background :#fff;
+    margin: 0 auto;
+    width: 50%;
+    border-radius:4px;
+    color:red;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translete(-50%,-50%);
+    text-align:center;
+    z-index: 2;
+ 
+}
+#head{
+   color:black;
+   font-weight: bold;
+   font-size: 150%;
+}   
+ 
+ #inOffice{
+    background: rgb(0, 115, 255);
+    color:white;
+    cursor:pointer;  
+}
+#inOffice:hover{
+    opacity:0.7;
+    color:red;
+ }
+
+ #Paidholiday{
+    background-color: red;
+    color:black;
+    cursor:pointer;
+ }
+ #Paidholiday:hover{
+    opacity:0.7;
+    color:white;
+ }
+
+ #atplant{
+    background-color: orange;
+    color:black;
+    cursor:pointer;
+ }
+ #atplant:hover{
+    opacity:0.7;
+    color:white;
+ }
+
+ #goHome{
+    background-color: rgb(255, 0, 55);
+    color:white;
+    cursor:pointer;
+ }
+ #goHome:hover{
+    opacity:0.7;
+    color:white;
+ }
+
+ #inHouse{
+    background-color: rgb(0, 255, 140);
+    color:black;
+    cursor:pointer;
+ }
+ #inHouse:hover{
+    opacity:0.7;
+    color:white;
+ }
+ 
+ #businessTrip{
+    background-color: rgb(61, 77, 70);
+    color:black;
+    cursor:pointer;
+ }
+ #businessTrip:hover{
+    opacity:0.7;
+    color:white;
+ }
+
+ #leave{
+    background-color: rgb(12, 22, 18);
+    color:white;
+    cursor:pointer;
+ }
+ #businessTrip:hover{
+    opacity:0.7;
+    color:white;
+    cursor:pointer;
+ }
