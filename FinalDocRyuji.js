@@ -1,3 +1,4 @@
+//# RyujiPointZero.fnd20
 const member1 = document.getElementById("n1");
 const mask = document.getElementById("mask");
 const modal = document.getElementById("modal");
@@ -20,6 +21,7 @@ console.log(name1);
 //↓出勤
 office.addEventListener("click",() =>{
     member1.style.background="rgb(0, 115, 255)";
+    member1.style.color="white";
     window.alert("登録完了");
     })
 //↓現場
