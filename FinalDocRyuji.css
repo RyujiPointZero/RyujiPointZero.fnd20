@@ -117,7 +117,7 @@
  }
  #goHome:hover{
     opacity:0.7;
-    color:white;
+    color:rgb(56, 53, 53);
  }
 
  #inHouse{
@@ -132,7 +132,7 @@
  
  #businessTrip{
     background-color: rgb(61, 77, 70);
-    color:black;
+    color:white;
     cursor:pointer;
  }
  #businessTrip:hover{
@@ -145,8 +145,8 @@
     color:white;
     cursor:pointer;
  }
- #businessTrip:hover{
+ #leave:hover{
     opacity:0.7;
-    color:white;
+    color:rgb(71, 67, 67);
     cursor:pointer;
  }
